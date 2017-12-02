@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DFAB9841FD2B10400DEE3DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFAB9831FD2B10400DEE3DC /* AppDelegate.m */; };
+		8DFAB9871FD2B10400DEE3DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFAB9861FD2B10400DEE3DC /* ViewController.m */; };
+		8DFAB98A1FD2B10400DEE3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFAB9881FD2B10400DEE3DC /* Main.storyboard */; };
+		8DFAB98C1FD2B10400DEE3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFAB98B1FD2B10400DEE3DC /* Assets.xcassets */; };
+		8DFAB98F1FD2B10400DEE3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFAB98D1FD2B10400DEE3DC /* LaunchScreen.storyboard */; };
+		8DFAB9921FD2B10400DEE3DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFAB9911FD2B10400DEE3DC /* main.m */; };
+		8DFAB9A51FD2DD0800DEE3DC /* JJGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFAB9A41FD2DD0800DEE3DC /* JJGiftView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DFAB97F1FD2B10400DEE3DC /* JJAnimation_demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJAnimation_demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFAB9821FD2B10400DEE3DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DFAB9831FD2B10400DEE3DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DFAB9851FD2B10400DEE3DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DFAB9861FD2B10400DEE3DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DFAB9891FD2B10400DEE3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DFAB98B1FD2B10400DEE3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DFAB98E1FD2B10400DEE3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DFAB9901FD2B10400DEE3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DFAB9911FD2B10400DEE3DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DFAB9A31FD2DD0800DEE3DC /* JJGiftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJGiftView.h; sourceTree = "<group>"; };
+		8DFAB9A41FD2DD0800DEE3DC /* JJGiftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJGiftView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DFAB97C1FD2B10400DEE3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DFAB9761FD2B10400DEE3DC = {
+			isa = PBXGroup;
+			children = (
+				8DFAB9811FD2B10400DEE3DC /* JJAnimation_demo1 */,
+				8DFAB9801FD2B10400DEE3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DFAB9801FD2B10400DEE3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DFAB97F1FD2B10400DEE3DC /* JJAnimation_demo1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DFAB9811FD2B10400DEE3DC /* JJAnimation_demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				8DFAB9821FD2B10400DEE3DC /* AppDelegate.h */,
+				8DFAB9831FD2B10400DEE3DC /* AppDelegate.m */,
+				8DFAB9851FD2B10400DEE3DC /* ViewController.h */,
+				8DFAB9861FD2B10400DEE3DC /* ViewController.m */,
+				8DFAB9A31FD2DD0800DEE3DC /* JJGiftView.h */,
+				8DFAB9A41FD2DD0800DEE3DC /* JJGiftView.m */,
+				8DFAB9881FD2B10400DEE3DC /* Main.storyboard */,
+				8DFAB98B1FD2B10400DEE3DC /* Assets.xcassets */,
+				8DFAB98D1FD2B10400DEE3DC /* LaunchScreen.storyboard */,
+				8DFAB9901FD2B10400DEE3DC /* Info.plist */,
+				8DFAB9911FD2B10400DEE3DC /* main.m */,
+			);
+			path = JJAnimation_demo1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DFAB97E1FD2B10400DEE3DC /* JJAnimation_demo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFAB9951FD2B10400DEE3DC /* Build configuration list for PBXNativeTarget "JJAnimation_demo1" */;
+			buildPhases = (
+				8DFAB97B1FD2B10400DEE3DC /* Sources */,
+				8DFAB97C1FD2B10400DEE3DC /* Frameworks */,
+				8DFAB97D1FD2B10400DEE3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJAnimation_demo1;
+			productName = JJAnimation_demo1;
+			productReference = 8DFAB97F1FD2B10400DEE3DC /* JJAnimation_demo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DFAB9771FD2B10400DEE3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.daoKeLegend;
+				TargetAttributes = {
+					8DFAB97E1FD2B10400DEE3DC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8DFAB97A1FD2B10400DEE3DC /* Build configuration list for PBXProject "JJAnimation_demo1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DFAB9761FD2B10400DEE3DC;
+			productRefGroup = 8DFAB9801FD2B10400DEE3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DFAB97E1FD2B10400DEE3DC /* JJAnimation_demo1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DFAB97D1FD2B10400DEE3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFAB98F1FD2B10400DEE3DC /* LaunchScreen.storyboard in Resources */,
+				8DFAB98C1FD2B10400DEE3DC /* Assets.xcassets in Resources */,
+				8DFAB98A1FD2B10400DEE3DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DFAB97B1FD2B10400DEE3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFAB9A51FD2DD0800DEE3DC /* JJGiftView.m in Sources */,
+				8DFAB9871FD2B10400DEE3DC /* ViewController.m in Sources */,
+				8DFAB9921FD2B10400DEE3DC /* main.m in Sources */,
+				8DFAB9841FD2B10400DEE3DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DFAB9881FD2B10400DEE3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFAB9891FD2B10400DEE3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DFAB98D1FD2B10400DEE3DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFAB98E1FD2B10400DEE3DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DFAB9931FD2B10400DEE3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DFAB9941FD2B10400DEE3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFAB9961FD2B10400DEE3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJAnimation_demo1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daoKeLegend.cn.JJAnimation-demo1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DFAB9971FD2B10400DEE3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJAnimation_demo1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daoKeLegend.cn.JJAnimation-demo1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DFAB97A1FD2B10400DEE3DC /* Build configuration list for PBXProject "JJAnimation_demo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFAB9931FD2B10400DEE3DC /* Debug */,
+				8DFAB9941FD2B10400DEE3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFAB9951FD2B10400DEE3DC /* Build configuration list for PBXNativeTarget "JJAnimation_demo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFAB9961FD2B10400DEE3DC /* Debug */,
+				8DFAB9971FD2B10400DEE3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DFAB9771FD2B10400DEE3DC /* Project object */;
+}
