@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045118911FDE826200418F7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045118901FDE826200418F7B /* AppDelegate.m */; };
+		045118941FDE826200418F7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045118931FDE826200418F7B /* ViewController.m */; };
+		045118971FDE826200418F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045118951FDE826200418F7B /* Main.storyboard */; };
+		045118991FDE826200418F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045118981FDE826200418F7B /* Assets.xcassets */; };
+		0451189C1FDE826200418F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451189A1FDE826200418F7B /* LaunchScreen.storyboard */; };
+		0451189F1FDE826200418F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451189E1FDE826200418F7B /* main.m */; };
+		045119681FDE867900418F7B /* homepage_live.json in Resources */ = {isa = PBXBuildFile; fileRef = 045119661FDE867900418F7B /* homepage_live.json */; };
+		045119691FDE867900418F7B /* homepage_circle.json in Resources */ = {isa = PBXBuildFile; fileRef = 045119671FDE867900418F7B /* homepage_circle.json */; };
+		0451196A1FDE891D00418F7B /* Pods_JJLOTAnimation.framework in Sources */ = {isa = PBXBuildFile; fileRef = 34C0D5FB9729AB37B129E7FD /* Pods_JJLOTAnimation.framework */; };
+		54E7AD0CE34A7A3D9890F6F0 /* Pods_JJLOTAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C0D5FB9729AB37B129E7FD /* Pods_JJLOTAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0451188C1FDE826200418F7B /* JJLOTAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJLOTAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0451188F1FDE826200418F7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045118901FDE826200418F7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045118921FDE826200418F7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		045118931FDE826200418F7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		045118961FDE826200418F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045118981FDE826200418F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0451189B1FDE826200418F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0451189D1FDE826200418F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0451189E1FDE826200418F7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045119661FDE867900418F7B /* homepage_live.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homepage_live.json; sourceTree = "<group>"; };
+		045119671FDE867900418F7B /* homepage_circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homepage_circle.json; sourceTree = "<group>"; };
+		34C0D5FB9729AB37B129E7FD /* Pods_JJLOTAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJLOTAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14D0B66B33D8CE1B803ED39 /* Pods-JJLOTAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJLOTAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJLOTAnimation/Pods-JJLOTAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC9C4F853B63CBCC3610F18 /* Pods-JJLOTAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJLOTAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJLOTAnimation/Pods-JJLOTAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045118891FDE826200418F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E7AD0CE34A7A3D9890F6F0 /* Pods_JJLOTAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045118831FDE826200418F7B = {
+			isa = PBXGroup;
+			children = (
+				0451188E1FDE826200418F7B /* JJLOTAnimation */,
+				0451188D1FDE826200418F7B /* Products */,
+				BC6E40B306EAC0B791FC8D74 /* Pods */,
+				507E4773F4AFE0AF596D8820 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0451188D1FDE826200418F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0451188C1FDE826200418F7B /* JJLOTAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0451188E1FDE826200418F7B /* JJLOTAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0451188F1FDE826200418F7B /* AppDelegate.h */,
+				045118901FDE826200418F7B /* AppDelegate.m */,
+				045118921FDE826200418F7B /* ViewController.h */,
+				045118931FDE826200418F7B /* ViewController.m */,
+				045118951FDE826200418F7B /* Main.storyboard */,
+				045118981FDE826200418F7B /* Assets.xcassets */,
+				045119671FDE867900418F7B /* homepage_circle.json */,
+				045119661FDE867900418F7B /* homepage_live.json */,
+				0451189A1FDE826200418F7B /* LaunchScreen.storyboard */,
+				0451189D1FDE826200418F7B /* Info.plist */,
+				0451189E1FDE826200418F7B /* main.m */,
+			);
+			path = JJLOTAnimation;
+			sourceTree = "<group>";
+		};
+		507E4773F4AFE0AF596D8820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34C0D5FB9729AB37B129E7FD /* Pods_JJLOTAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6E40B306EAC0B791FC8D74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D14D0B66B33D8CE1B803ED39 /* Pods-JJLOTAnimation.debug.xcconfig */,
+				ECC9C4F853B63CBCC3610F18 /* Pods-JJLOTAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0451188B1FDE826200418F7B /* JJLOTAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045118A21FDE826200418F7B /* Build configuration list for PBXNativeTarget "JJLOTAnimation" */;
+			buildPhases = (
+				F34AEFAEBB7EBE615372CC36 /* [CP] Check Pods Manifest.lock */,
+				045118881FDE826200418F7B /* Sources */,
+				045118891FDE826200418F7B /* Frameworks */,
+				0451188A1FDE826200418F7B /* Resources */,
+				5BA8FFA21003B5D75B263AC1 /* [CP] Embed Pods Frameworks */,
+				6776D931CD90A6DB961F6523 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJLOTAnimation;
+			productName = JJLOTAnimation;
+			productReference = 0451188C1FDE826200418F7B /* JJLOTAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045118841FDE826200418F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DaoKeLegend;
+				TargetAttributes = {
+					0451188B1FDE826200418F7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 045118871FDE826200418F7B /* Build configuration list for PBXProject "JJLOTAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045118831FDE826200418F7B;
+			productRefGroup = 0451188D1FDE826200418F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0451188B1FDE826200418F7B /* JJLOTAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0451188A1FDE826200418F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0451189C1FDE826200418F7B /* LaunchScreen.storyboard in Resources */,
+				045119691FDE867900418F7B /* homepage_circle.json in Resources */,
+				045118991FDE826200418F7B /* Assets.xcassets in Resources */,
+				045118971FDE826200418F7B /* Main.storyboard in Resources */,
+				045119681FDE867900418F7B /* homepage_live.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BA8FFA21003B5D75B263AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JJLOTAnimation/Pods-JJLOTAnimation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJLOTAnimation/Pods-JJLOTAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6776D931CD90A6DB961F6523 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJLOTAnimation/Pods-JJLOTAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34AEFAEBB7EBE615372CC36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJLOTAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045118881FDE826200418F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0451196A1FDE891D00418F7B /* Pods_JJLOTAnimation.framework in Sources */,
+				045118941FDE826200418F7B /* ViewController.m in Sources */,
+				0451189F1FDE826200418F7B /* main.m in Sources */,
+				045118911FDE826200418F7B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045118951FDE826200418F7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045118961FDE826200418F7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0451189A1FDE826200418F7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0451189B1FDE826200418F7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045118A01FDE826200418F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		045118A11FDE826200418F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045118A31FDE826200418F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14D0B66B33D8CE1B803ED39 /* Pods-JJLOTAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJLOTAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.JJLOTAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045118A41FDE826200418F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC9C4F853B63CBCC3610F18 /* Pods-JJLOTAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJLOTAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.JJLOTAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045118871FDE826200418F7B /* Build configuration list for PBXProject "JJLOTAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045118A01FDE826200418F7B /* Debug */,
+				045118A11FDE826200418F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045118A21FDE826200418F7B /* Build configuration list for PBXNativeTarget "JJLOTAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045118A31FDE826200418F7B /* Debug */,
+				045118A41FDE826200418F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045118841FDE826200418F7B /* Project object */;
+}
