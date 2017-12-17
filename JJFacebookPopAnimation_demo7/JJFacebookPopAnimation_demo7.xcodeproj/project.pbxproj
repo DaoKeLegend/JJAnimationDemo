@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85849117EBEE0F0175B5BE63 /* Pods_JJFacebookPopAnimation_demo7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFB62D5A087CBE21C9C6B7F /* Pods_JJFacebookPopAnimation_demo7.framework */; };
+		8DCD73881FE60F0900121348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD73871FE60F0900121348 /* AppDelegate.m */; };
+		8DCD738B1FE60F0900121348 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD738A1FE60F0900121348 /* ViewController.m */; };
+		8DCD738E1FE60F0900121348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD738C1FE60F0900121348 /* Main.storyboard */; };
+		8DCD73901FE60F0900121348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD738F1FE60F0900121348 /* Assets.xcassets */; };
+		8DCD73931FE60F0900121348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD73911FE60F0900121348 /* LaunchScreen.storyboard */; };
+		8DCD73961FE60F0900121348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD73951FE60F0900121348 /* main.m */; };
+		8DCD739E1FE6293600121348 /* PDAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD739D1FE6293600121348 /* PDAnimationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DCD73831FE60F0900121348 /* JJFacebookPopAnimation_demo7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJFacebookPopAnimation_demo7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCD73861FE60F0900121348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DCD73871FE60F0900121348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DCD73891FE60F0900121348 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DCD738A1FE60F0900121348 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DCD738D1FE60F0900121348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DCD738F1FE60F0900121348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DCD73921FE60F0900121348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DCD73941FE60F0900121348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCD73951FE60F0900121348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DCD739C1FE6293500121348 /* PDAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDAnimationManager.h; sourceTree = "<group>"; };
+		8DCD739D1FE6293600121348 /* PDAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDAnimationManager.m; sourceTree = "<group>"; };
+		966FF6A0052288B126387B9C /* Pods-JJFacebookPopAnimation_demo7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJFacebookPopAnimation_demo7.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJFacebookPopAnimation_demo7/Pods-JJFacebookPopAnimation_demo7.release.xcconfig"; sourceTree = "<group>"; };
+		DBFB62D5A087CBE21C9C6B7F /* Pods_JJFacebookPopAnimation_demo7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJFacebookPopAnimation_demo7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E831B5DF34594B2D5490AB /* Pods-JJFacebookPopAnimation_demo7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJFacebookPopAnimation_demo7.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJFacebookPopAnimation_demo7/Pods-JJFacebookPopAnimation_demo7.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCD73801FE60F0900121348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85849117EBEE0F0175B5BE63 /* Pods_JJFacebookPopAnimation_demo7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DCD737A1FE60F0900121348 = {
+			isa = PBXGroup;
+			children = (
+				8DCD73851FE60F0900121348 /* JJFacebookPopAnimation_demo7 */,
+				8DCD73841FE60F0900121348 /* Products */,
+				DAD005AEBCFB876E5D084260 /* Pods */,
+				ED5FABE60FB9EDBEF68C9B76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCD73841FE60F0900121348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCD73831FE60F0900121348 /* JJFacebookPopAnimation_demo7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCD73851FE60F0900121348 /* JJFacebookPopAnimation_demo7 */ = {
+			isa = PBXGroup;
+			children = (
+				8DCD73861FE60F0900121348 /* AppDelegate.h */,
+				8DCD73871FE60F0900121348 /* AppDelegate.m */,
+				8DCD73891FE60F0900121348 /* ViewController.h */,
+				8DCD738A1FE60F0900121348 /* ViewController.m */,
+				8DCD739C1FE6293500121348 /* PDAnimationManager.h */,
+				8DCD739D1FE6293600121348 /* PDAnimationManager.m */,
+				8DCD738C1FE60F0900121348 /* Main.storyboard */,
+				8DCD738F1FE60F0900121348 /* Assets.xcassets */,
+				8DCD73911FE60F0900121348 /* LaunchScreen.storyboard */,
+				8DCD73941FE60F0900121348 /* Info.plist */,
+				8DCD73951FE60F0900121348 /* main.m */,
+			);
+			path = JJFacebookPopAnimation_demo7;
+			sourceTree = "<group>";
+		};
+		DAD005AEBCFB876E5D084260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1E831B5DF34594B2D5490AB /* Pods-JJFacebookPopAnimation_demo7.debug.xcconfig */,
+				966FF6A0052288B126387B9C /* Pods-JJFacebookPopAnimation_demo7.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED5FABE60FB9EDBEF68C9B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBFB62D5A087CBE21C9C6B7F /* Pods_JJFacebookPopAnimation_demo7.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DCD73821FE60F0900121348 /* JJFacebookPopAnimation_demo7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCD73991FE60F0900121348 /* Build configuration list for PBXNativeTarget "JJFacebookPopAnimation_demo7" */;
+			buildPhases = (
+				C253AF84BECA4C9308163161 /* [CP] Check Pods Manifest.lock */,
+				8DCD737F1FE60F0900121348 /* Sources */,
+				8DCD73801FE60F0900121348 /* Frameworks */,
+				8DCD73811FE60F0900121348 /* Resources */,
+				85F5EED68291C9AD0D48FCF3 /* [CP] Embed Pods Frameworks */,
+				D9C71F6D2250845052B8FBDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJFacebookPopAnimation_demo7;
+			productName = JJFacebookPopAnimation_demo7;
+			productReference = 8DCD73831FE60F0900121348 /* JJFacebookPopAnimation_demo7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DCD737B1FE60F0900121348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.daoKeLegend;
+				TargetAttributes = {
+					8DCD73821FE60F0900121348 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8DCD737E1FE60F0900121348 /* Build configuration list for PBXProject "JJFacebookPopAnimation_demo7" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DCD737A1FE60F0900121348;
+			productRefGroup = 8DCD73841FE60F0900121348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCD73821FE60F0900121348 /* JJFacebookPopAnimation_demo7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DCD73811FE60F0900121348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCD73931FE60F0900121348 /* LaunchScreen.storyboard in Resources */,
+				8DCD73901FE60F0900121348 /* Assets.xcassets in Resources */,
+				8DCD738E1FE60F0900121348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85F5EED68291C9AD0D48FCF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJFacebookPopAnimation_demo7/Pods-JJFacebookPopAnimation_demo7-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C253AF84BECA4C9308163161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C71F6D2250845052B8FBDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJFacebookPopAnimation_demo7/Pods-JJFacebookPopAnimation_demo7-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCD737F1FE60F0900121348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCD738B1FE60F0900121348 /* ViewController.m in Sources */,
+				8DCD73961FE60F0900121348 /* main.m in Sources */,
+				8DCD739E1FE6293600121348 /* PDAnimationManager.m in Sources */,
+				8DCD73881FE60F0900121348 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DCD738C1FE60F0900121348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCD738D1FE60F0900121348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DCD73911FE60F0900121348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCD73921FE60F0900121348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DCD73971FE60F0900121348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DCD73981FE60F0900121348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DCD739A1FE60F0900121348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E831B5DF34594B2D5490AB /* Pods-JJFacebookPopAnimation_demo7.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJFacebookPopAnimation_demo7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daoKeLegend.cn.JJFacebookPopAnimation-demo7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DCD739B1FE60F0900121348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966FF6A0052288B126387B9C /* Pods-JJFacebookPopAnimation_demo7.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJFacebookPopAnimation_demo7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daoKeLegend.cn.JJFacebookPopAnimation-demo7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DCD737E1FE60F0900121348 /* Build configuration list for PBXProject "JJFacebookPopAnimation_demo7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCD73971FE60F0900121348 /* Debug */,
+				8DCD73981FE60F0900121348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCD73991FE60F0900121348 /* Build configuration list for PBXNativeTarget "JJFacebookPopAnimation_demo7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCD739A1FE60F0900121348 /* Debug */,
+				8DCD739B1FE60F0900121348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DCD737B1FE60F0900121348 /* Project object */;
+}

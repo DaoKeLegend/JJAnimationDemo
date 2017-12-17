@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+target 'JJFacebookPopAnimation_demo7' do
+  
+
+  pod ‘pop’
+   use_frameworks!
+
+  # Pods for JJFacebookPopAnimation_demo7
+
+end

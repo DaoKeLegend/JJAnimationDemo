@@ -1,0 +1,6 @@
+framework module Pods_JJFacebookPopAnimation_demo7 {
+  umbrella header "Pods-JJFacebookPopAnimation_demo7-umbrella.h"
+
+  export *
+  module * { export * }
+}
