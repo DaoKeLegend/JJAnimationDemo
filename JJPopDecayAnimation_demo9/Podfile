@@ -1,0 +1,12 @@
+
+platform :ios, '9.0'
+
+target 'JJPopDecayAnimation_demo9' do
+  
+  pod ‘pop’
+
+  use_frameworks!
+
+  # Pods for JJPopDecayAnimation_demo9
+
+end

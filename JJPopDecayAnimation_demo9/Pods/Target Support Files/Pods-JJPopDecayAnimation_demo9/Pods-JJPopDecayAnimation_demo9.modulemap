@@ -1,0 +1,6 @@
+framework module Pods_JJPopDecayAnimation_demo9 {
+  umbrella header "Pods-JJPopDecayAnimation_demo9-umbrella.h"
+
+  export *
+  module * { export * }
+}

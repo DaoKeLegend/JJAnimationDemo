@@ -97,36 +97,38 @@
 
 - (void)setAnimationWithBounciness:(CGFloat)bounciness andSpeed:(CGFloat)speed
 {
+    /**
+        spring动画
+     */
     [self.popCircle pop_removeAllAnimations];
     POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:self.animationType];
-    
+
     [PDAnimationManager springObject:self.popCircle configAnimation:anim WithType:self.animationType andAnimated:self.animated];
-    
+
     self.animated = !self.animated;
     anim.springBounciness = bounciness;
     anim.springSpeed = speed;
-    
+
     if (self.FrictionSwitch.isOn) {
         anim.dynamicsFriction = self.frictionSlider.value;
     }
-    
+
     if (self.tensionSwitch.isOn) {
         anim.dynamicsTension = self.tensionSlider.value;
     }
-    
+
     if (self.massSwitch.isOn) {
         anim.dynamicsMass = self.massSlider.value;
     }
-    
+
     anim.completionBlock = ^(POPAnimation *anim, BOOL finished) {
         if (finished) {
-            
+
             [self performAnimation];
         }
     };
-    
+
     [self.popCircle pop_addAnimation:anim forKey:@"Animation"];
-    
 }
 
 - (void)performAnimation
